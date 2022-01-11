@@ -1,6 +1,6 @@
 CPP=g++
-CPPFLAGS=-O2 -Wall
-CASEID=283
+CPPFLAGS=-O0 -g -Wall
+CASEID=167
 PROG=leetcode
 ${PROG}: ${CASEID}.cpp
 	${CPP} ${CASEID}.cpp -o ${PROG} ${CPPFLAGS}
